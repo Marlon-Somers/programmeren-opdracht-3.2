@@ -3,16 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tui</title>
 </head>
 <body>
     <h1></h1>
     <form>
+     <label for="fname">voornaam:</label>
+     <br>  
+     <input type="text" name="fname" id="fname" value="" placeholder="uw voornaam"required> 
+     <br>
+     <label for="lname">achternaam:</label> <br>
+     <input type="text" name="lname" id="lname" value="" placeholder="uw achternaam"required> 
+     <br><br>
+     <label for="radio">geslacht:</label> 
+     <br> 
+     <input type="radio" name="man" id="man" checked="checked"> Man 
+     <br>
+     <label for="radio">    
+     <input type="radio" name="man" id="man">  Vrouw
+     <br>
+     <input type="radio" name="man" id="man">  wil ik liever niet zeggen
+     <br><br>
+     <label for="straat & huisnummer"required>adress:</label>
+     <br>
+     <input type="text" name="straat & huisnummer" value="" placeholder="straat en huisnummer"required>
+     <br>
+     <input type="text" name="Postcode" placeholder="Postcode"required>
+     <br>
+     <input type="text" name="stad" placeholder="Stad"required>
+     <br>
+     <input type="text" name="land" placeholder="land"required>
+     <br> <br>
+     <label for="BSN">BSN nummer:</label> <br>
+     <input type="text" name="BSN" placeholder="BSN nummer"><br>
+      <select name="landen" id="landen">
+      <option value="rome">rome</option>
+      <option value="zwede">zwede</option>
+      <option value="frankrijk">frankrijk</option>
+      <option value="zimbawe">zimbawe</option>
+      </select><br>
+      
+      <input type="datetime-local">vertrek<br/>
+      <input type="datetime-local">aankomst<br/>
 
+    <input type="email">Email<br>
 
+    <input type="password">wachtword<br>
 
-
-        
+     <br>     
+     <br>
+     <br>
+     boek nu<br>
+    <input type="submit">
     </form>
 </body>
 </html>
